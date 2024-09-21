@@ -17,9 +17,8 @@ Resposta
 
 Exemplo de Requisição
 `GET /weather?city=São Paulo&country=Brasil`
-'''
+
 Exemplo de Resposta
-JSON
 ```
 {
   "weather": [

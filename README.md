@@ -3,16 +3,20 @@
 A API WeatherHub fornece dados de clima precisos e atualizados para cidades em todo o mundo. Com uma interface fácil de usar e uma política de rate limiting justa, a API WeatherHub é perfeita para desenvolvedores que precisam de dados de clima para seus aplicativos.
 
 Endpoint
-/weather
+`/weather`
+
 Método
-GET
+`GET`
+
 Parâmetros
-city: Nome da cidade (obrigatório)
-country: Nome do país (obrigatório)
+`city`: Nome da cidade (obrigatório)
+`country`: Nome do país (obrigatório)
+
 Resposta
-weather_data: Dados de clima em formato JSON
+`weather_data`: Dados de clima em formato JSON
+
 Exemplo de Requisição
-GET /weather?city=São Paulo&country=Brasil
+`GET /weather?city=São Paulo&country=Brasil`
 '''
 Exemplo de Resposta
 JSON

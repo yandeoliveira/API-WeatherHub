@@ -15,7 +15,7 @@ Exemplo de Requisição
 GET /weather?city=São Paulo&country=Brasil
 
 Exemplo de Resposta
-
+```
 {
   "weather": [
     {
@@ -29,7 +29,7 @@ Exemplo de Resposta
     "temp_min": 20.0
   }
 }
-
+```
 Autenticação e Autorização
 Para implementar autenticação e autorização, a API WeatherHub utiliza o padrão de autenticação básica com tokens.
 

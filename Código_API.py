@@ -1,4 +1,4 @@
-from flask import Flask, jsonify, request
+`from flask import Flask, jsonify, request
 import requests
 import urllib.parse
 import os
@@ -111,7 +111,7 @@ def weather():
     # Convertendo os dados de clima para Celsius
     weather_data = convert_weather_data(weather_data)
     # Retornando os dados de clima em formato JSON
-    return jsonify(weather_data)
+    return jsonify(weather_data)`
 
 
 if __name__ == "__main__":

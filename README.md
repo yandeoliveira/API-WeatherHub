@@ -40,7 +40,6 @@ Para implementar autenticação e autorização, a API WeatherHub utiliza o padr
 Política de Rate Limiting
 A API WeatherHub tem uma política de rate limiting que permite 10 requisições por minuto, 50 requisições por hora e 200 requisições por dia.
 
-Suporte Técnico e Atendimento ao Cliente
-Para oferecer suporte técnico e atendimento ao cliente, a API WeatherHub fornece uma página de suporte com informações sobre como utilizar a API e como contatar o suporte técnico.
+
 
 

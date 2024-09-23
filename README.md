@@ -7,6 +7,7 @@ A API-WeatherHub é uma API baseada em Flask que fornece dados climáticos atuai
 Pontos de Extremidade
 `/weather`
 `Método`: GET
+
 Parâmetros:
 `cidade`: string (obrigatório)
 `país`: string (obrigatório)

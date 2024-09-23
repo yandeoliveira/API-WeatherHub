@@ -1,4 +1,5 @@
-**#API-WeatherHub**                                                                      
+**#API-WeatherHub**         
+  
   **Visão Geral**
   A API-WeatherHub é uma API baseada em Flask que fornece dados climáticos atuais para uma cidade e país específicos. A API usa a API do OpenWeatherMap para buscar 
   dados climáticos e converte a temperatura de Kelvin para Celsius.
@@ -17,33 +18,29 @@
  Retorna um erro 500 se a solicitação da API para o OpenWeatherMap falhar.
 
 **Funções**:  
- `kelvin_to_celsius(kelvin: float) -> float`
-   Converte temperatura de Kelvin para Celsius.
+ `kelvin_to_celsius(kelvin: float) -> float`      
+  Converte temperatura de Kelvin para Celsius.
 
-`get_weather_data(cidade: str, país: str) -> dict`
+`get_weather_data(cidade: str, país: str) -> dict`     
  Busca dados climáticos da API do OpenWeatherMap para uma cidade e país específicos.
 
-`convert_weather_data(weather_data: dict) -> dict`
+`convert_weather_data(weather_data: dict) -> dict`      
  Converte temperatura de Kelvin para Celsius nos dados climáticos.
 
 `validate_input(cidade: str, país: str) -> bool`
  Valida a entrada cidade e país.
 
-**Variáveis de Ambiente:**
+**Variáveis de Ambiente:**                        
  `OPENWEATHERMAP_API_KEY`: Chave API para a API do OpenWeatherMap.
  
 
-  **Para executar a API, execute o seguinte comando:**                                
-
-
+  **Para executar a API, execute o seguinte comando:**                                       
  ``python app.py``                      
  Isso iniciará o servidor de desenvolvimento do Flask, e a API estará disponível em `http://localhost:5000/weather`.
 
-**Exemplo de Solicitação:**         
+**Exemplo de Solicitação:**                               
  Para buscar dados climáticos para uma cidade e país, envie uma solicitação GET para `http://localhost:5000/weather` com os seguintes parâmetros:
-
  ```cidade=Lisboa&país=Portugal```
-
 Isso retornará um objeto JSON com os dados climáticos atuais para Lisboa, Portugal.
 
 Autenticação e Autorização

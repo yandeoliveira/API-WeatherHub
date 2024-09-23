@@ -5,7 +5,7 @@
 
 **Pontos de Extremidade**:
  `/weather`
- `Método`: GET.
+ `Método`: GET
 
 **Parâmetros:**
  `cidade`: string (obrigatório)

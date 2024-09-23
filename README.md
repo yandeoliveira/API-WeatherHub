@@ -11,8 +11,8 @@
  `Método`: GET
 
 **Parâmetros:**
- `cidade`: string (obrigatório)
- `país`: string (obrigatório).
+ `cidade`: string (obrigatório)             
+ `país`: string (obrigatório).                 
   **Resposta**: Objeto JSON com dados climáticos
 
  **Manipulação de Erros:**
@@ -23,13 +23,13 @@
  `kelvin_to_celsius(kelvin: float) -> float`      
   Converte temperatura de Kelvin para Celsius.
 
-`get_weather_data(cidade: str, país: str) -> dict`     
+`get_weather_data(cidade: str, país: str) -> dict`                         
  Busca dados climáticos da API do OpenWeatherMap para uma cidade e país específicos.
 
-`convert_weather_data(weather_data: dict) -> dict`      
+`convert_weather_data(weather_data: dict) -> dict`                                  
  Converte temperatura de Kelvin para Celsius nos dados climáticos.
 
-`validate_input(cidade: str, país: str) -> bool`
+`validate_input(cidade: str, país: str) -> bool`                                          
  Valida a entrada cidade e país.
 
 **Variáveis de Ambiente:**                        

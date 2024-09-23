@@ -14,8 +14,8 @@ Manipulação de Erros:
 Retorna um erro 400 se a entrada for inválida (por exemplo, cidade ou país está vazio ou não é uma string)
 Retorna um erro 500 se a solicitação da API para o OpenWeatherMap falhar.
 
-Funções
-`kelvin_to_celsius(kelvin: float) -> float`
+Funções:  
+ `kelvin_to_celsius(kelvin: float) -> float`
 Converte temperatura de Kelvin para Celsius.
 
 `get_weather_data(cidade: str, país: str) -> dict`

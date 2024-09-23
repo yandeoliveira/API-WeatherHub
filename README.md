@@ -1,3 +1,6 @@
+(A API ainda não está hospedada, se possui interesse em adquiri-lá entre em contato pelo prórprio GitHub ou minhas redes sociais, como WhatsApp: (41) 99688-8764)
+
+
 **#API-WeatherHub**         
   
   **Visão Geral**

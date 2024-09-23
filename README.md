@@ -21,13 +21,13 @@
 
 **Funções**:  
  `kelvin_to_celsius(kelvin: float) -> float`      
-  Converte temperatura de Kelvin para Celsius.
+  Converte a temperatura de Kelvin para Celsius.
 
 `get_weather_data(cidade: str, país: str) -> dict`                         
  Busca dados climáticos da API do OpenWeatherMap para uma cidade e país específicos.
 
 `convert_weather_data(weather_data: dict) -> dict`                                  
- Converte temperatura de Kelvin para Celsius nos dados climáticos.
+ Converte a temperatura de Kelvin para Celsius nos dados climáticos.
 
 `validate_input(cidade: str, país: str) -> bool`                                          
  Valida a entrada cidade e país.

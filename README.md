@@ -33,8 +33,8 @@
  `OPENWEATHERMAP_API_KEY`: Chave API para a API do OpenWeatherMap.
  
 
-  Executando a API
-Para executar a API, execute o seguinte comando:
+**Executando a API**
+  **Para executar a API, execute o seguinte comando:**
 
 
  ```python app.py```

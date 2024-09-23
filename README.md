@@ -31,8 +31,9 @@
 
 **Variáveis de Ambiente:**
  `OPENWEATHERMAP_API_KEY`: Chave API para a API do OpenWeatherMap
+ 
 
-Executando a API
+  Executando a API
 Para executar a API, execute o seguinte comando:
 
 

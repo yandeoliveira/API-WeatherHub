@@ -1,5 +1,5 @@
-   **#API-WeatherHub**
-      **Visão Geral**
+**#API-WeatherHub**                                                                      
+  **Visão Geral**
   A API-WeatherHub é uma API baseada em Flask que fornece dados climáticos atuais para uma cidade e país específicos. A API usa a API do OpenWeatherMap para buscar 
   dados climáticos e converte a temperatura de Kelvin para Celsius.
 
@@ -33,17 +33,16 @@
  `OPENWEATHERMAP_API_KEY`: Chave API para a API do OpenWeatherMap.
  
 
-  **Para executar a API, execute o seguinte comando:**
+  **Para executar a API, execute o seguinte comando:**                                
 
 
- ``python app.py``
+ ``python app.py``                      
  Isso iniciará o servidor de desenvolvimento do Flask, e a API estará disponível em `http://localhost:5000/weather`.
 
-**Exemplo de Solicitação:**
+**Exemplo de Solicitação:**         
  Para buscar dados climáticos para uma cidade e país, envie uma solicitação GET para `http://localhost:5000/weather` com os seguintes parâmetros:
 
-code
-```cidade=Lisboa&país=Portugal```
+ ```cidade=Lisboa&país=Portugal```
 
 Isso retornará um objeto JSON com os dados climáticos atuais para Lisboa, Portugal.
 

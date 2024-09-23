@@ -30,7 +30,7 @@
  Valida a entrada cidade e país.
 
 **Variáveis de Ambiente:**
- `OPENWEATHERMAP_API_KEY`: Chave API para a API do OpenWeatherMap
+ `OPENWEATHERMAP_API_KEY`: Chave API para a API do OpenWeatherMap.
  
 
   Executando a API

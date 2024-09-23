@@ -10,8 +10,7 @@
 **Parâmetros:**
  `cidade`: string (obrigatório)
  `país`: string (obrigatório).
- 
-**Resposta**: Objeto JSON com dados climáticos
+  **Resposta**: Objeto JSON com dados climáticos
 
  **Manipulação de Erros:**
  Retorna um erro 400 se a entrada for inválida (por exemplo, cidade ou país está vazio ou não é uma string)

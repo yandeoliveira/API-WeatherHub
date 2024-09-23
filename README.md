@@ -36,7 +36,7 @@
   **Para executar a API, execute o seguinte comando:**
 
 
- ```python app.py```
+ ``python app.py``
  Isso iniciará o servidor de desenvolvimento do Flask, e a API estará disponível em `http://localhost:5000/weather`.
 
 **Exemplo de Solicitação:**

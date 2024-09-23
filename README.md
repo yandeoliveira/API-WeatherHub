@@ -1,4 +1,3 @@
-(A API ainda não está hospedada, se possui interesse em adquiri-lá entre em contato pelo prórprio GitHub ou minhas redes sociais, como WhatsApp: (41) 99688-8764)
 
 
 **#API-WeatherHub**         
@@ -46,8 +45,11 @@
  ```cidade=Lisboa&país=Portugal```
 Isso retornará um objeto JSON com os dados climáticos atuais para Lisboa, Portugal.
 
-Autenticação e Autorização
+**Autenticação e Autorização**                   
  Para implementar autenticação e autorização, a API WeatherHub utiliza o padrão de autenticação básica com tokens.
 
-Política de Rate Limiting
+**Política de Rate Limiting**                
  A API WeatherHub tem uma política de rate limiting que permite 10 requisições por minuto, 50 requisições por hora e 200 requisições por dia.
+                                
+
+(A API ainda não está hospedada, se possui interesse em adquiri-lá entre em contato pelo prórprio GitHub ou minhas redes sociais, como WhatsApp: (41) 99688-8764).

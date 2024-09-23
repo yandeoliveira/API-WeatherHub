@@ -36,10 +36,10 @@
 
   **Para executar a API, execute o seguinte comando:**                                       
  ``python app.py``                      
- Isso iniciará o servidor de desenvolvimento do Flask, e a API estará disponível em `servidor web como VPS`.
+ Isso iniciará o servidor de desenvolvimento do Flask, e a API estará disponível em `um servidor web como VPS`.
 
 **Exemplo de Solicitação:**                               
- Para buscar dados climáticos para uma cidade e país, envie uma solicitação GET para `servidor web como VPS` com os seguintes parâmetros:
+ Para buscar dados climáticos para uma cidade e país, envie uma solicitação GET para `um servidor web como VPS` com os seguintes parâmetros:
  ```cidade=Lisboa&país=Portugal```
 Isso retornará um objeto JSON com os dados climáticos atuais para Lisboa, Portugal.
 

@@ -10,7 +10,7 @@
  `/weather`
  `Método`: GET
 
-**Parâmetros:**
+**Parâmetros:**                                             
  `cidade`: string (obrigatório)             
  `país`: string (obrigatório).                 
   **Resposta**: Objeto JSON com dados climáticos

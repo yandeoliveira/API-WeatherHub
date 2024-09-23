@@ -37,7 +37,7 @@ Para executar a API, execute o seguinte comando:
 
 
  ```python app.py```
-Isso iniciará o servidor de desenvolvimento do Flask, e a API estará disponível em `http://localhost:5000/weather`.
+ Isso iniciará o servidor de desenvolvimento do Flask, e a API estará disponível em `http://localhost:5000/weather`.
 
 Exemplo de Solicitação:
  Para buscar dados climáticos para uma cidade e país, envie uma solicitação GET para `http://localhost:5000/weather` com os seguintes parâmetros:

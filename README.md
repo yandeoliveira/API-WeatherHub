@@ -3,9 +3,7 @@
 **API-WeatherHub**         
   
   **Visão Geral:**                                                        
-  A API-WeatherHub é uma API baseada em Flask que fornece dados climáticos atuais para uma cidade e país específicos. A API usa a API do OpenWeatherMap para buscar 
-  dados climáticos e converte a temperatura de Kelvin para Celsius.
-
+A API-WeatherHub é uma API baseada em Flask que fornece dados climáticos atuais para uma cidade e país específicos. A API utiliza o OpenWeatherMap como fornecedor de dados climáticos e realiza a conversão da temperatura de Kelvin para Celsius.
 **Pontos de Extremidade**:
  `/weather`
  `Método`: GET

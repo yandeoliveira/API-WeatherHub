@@ -52,5 +52,5 @@ Isso retornará um objeto JSON com os dados climáticos atuais para Lisboa, Port
                                                                                                                                     
                                 
 *Arquivos de código e aplicativo em outro galho do GitHub*                                                                                                      
-*A API ainda não está hospedada, se possui interesse em adquiri-lá entre em contato pelo próprio GitHub ou minhas redes sociais, como WhatsApp: (41) 99688-8764.*
+*A API ainda não está hospedada, se possui interesse em adquiri-lá entre em contato pelo próprio GitHub ou acesse o código para poder fazer a hospedagem.*
 

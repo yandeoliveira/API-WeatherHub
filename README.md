@@ -58,13 +58,16 @@ validate_input(cidade: str, país: str) -> bool
 
  # Exemplo de Solicitação:                          
  Para buscar dados climáticos para uma cidade e país, envie uma solicitação GET para um servidor `WEB` com os seguintes parâmetros:
- ```cidade=Lisboa&país=Portugal```
+ ```
+ cidade=Lisboa&país=Portugal
+```
+
 Isso retornará um objeto `JSON` com os dados climáticos atuais para Lisboa, Portugal.
 
 # Autenticação e Autorização               
  Para implementar autenticação e autorização, a API WeatherHub utiliza o padrão de autenticação básica com tokens.
 
-# Política de Rate Limiting**                
+# Política de Rate Limiting            
  A API WeatherHub tem uma política de rate limiting que permite 10 requisições por minuto, 50 requisições por hora e 200 requisições por dia.
                                                                                                                                     
 # Consulta e alterações                                

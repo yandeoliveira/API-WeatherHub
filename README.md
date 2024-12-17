@@ -71,6 +71,13 @@ Isso retornará um objeto `JSON` com os dados climáticos atuais para Lisboa, Po
  A API WeatherHub tem uma política de rate limiting que permite 10 requisições por minuto, 50 requisições por hora e 200 requisições por dia.
                                                                                                                                     
 ## Consulta e alterações                                
-Para consultar, alterar e executar a API acesse o código que está na branch filial.                                                                                                
+Para consultar, alterar e executar a API acesse o código que está na branch filial.                          
+
+## Contato
+Para mais informações entre em contato [yansantos2410@gmail.com]
+Desenvolvedor: Yan de Oliveira
+
+## Informações adicionais
+Código fonte da API se encontra em outra branch do repositório.
 
 
